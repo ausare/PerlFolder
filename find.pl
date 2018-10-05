@@ -9,7 +9,7 @@ my $locateFile = "/^rcop.*/";
 find(\&wanted, $dir);
 
 # my $found = `find $dir -type f -iname $locateFile`;
-
+# What da hell?
 # print $found if $found;
 
 my @oldNames;
